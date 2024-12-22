@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassiearningwebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Wassiearningwebsite</h1>
+    </header>
+
+    <div class="container">
+        <h2 id="greetingMessage">Loading greeting...</h2>
+        <p>Earn money easily! Join us today and start your earning journey.</p>
+        <p>If you have any questions or need assistance, feel free to reach out via WhatsApp:</p>
+        <a href="https://wa.me/+923038264337" class="button" target="_blank">Contact us on WhatsApp</a>
+
+        <!-- Sign-Up Form -->
+        <form onsubmit="handleFormSubmit(event)">
+            <h3>Sign Up for Earning</h3>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Your Interest (e.g., Affiliate Marketing)" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Modal for Special Offer -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Special Offer!</h2>
+            <p>Sign up today and get 20% off on all courses!</p>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop">↑</button>
+
+    <footer>
+        <p>&copy; 2024 Wassiearningwebsite</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
